@@ -1,7 +1,7 @@
 # Quote-Deidentification-using-Named-Entity-Recognition-with-spaCy
 This project demonstrates how to use spaCy for Named Entity Recognition (NER) and deidentification of quotes.
 
-The code is stored in the MyNamedEntityRecognition.ipynb file.
+The code is stored in the "MyNamedEntityRecognition.ipynb" file.
 
 ## Sections:
 
