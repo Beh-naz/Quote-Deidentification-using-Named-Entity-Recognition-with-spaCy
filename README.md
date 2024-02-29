@@ -11,9 +11,11 @@ A corpus of text passages containing quotes is provided. These passages will be 
 
 ### Data Preparation and Anonymization: 
 This section processes each text passage in the corpus. It first cleans the text by removing special characters. 
-Then, it uses spaCy's NER to identify entities in the text. Entities labeled as "PERSON" are considered named entities (e.g., names of people) and are removed from the text, 
+Then, it uses spaCy's NER to identify entities in the text. Entities labelled as "PERSON" are considered named entities (e.g., names of people) and are removed from the text, 
 effectively anonymizing the quotes. The cleaned and anonymized text is stored in a new corpus (anonymized_corpus).
 
 ### Result:
 The final output is the anonymized corpus, where quotes have been deidentified by removing named entities. 
 This process is useful for anonymizing text data for privacy or security purposes while retaining the overall structure and meaning of the text.
+
+
